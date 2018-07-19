@@ -1,0 +1,50 @@
+{
+    "player": {
+        "health": 50,
+        "attack": 10,
+        "speed": 160,
+        "bomb_type": "fire_bomb",
+        "bomb_range": "small_bomb",
+        "bomb_shape": "cross_bomb"
+    },
+    "zombiepig": {
+        "health": 15,
+        "attack": 8,
+        "speed": 100,
+        "bomb_type": "fire_bomb",
+        "bomb_range": "small_bomb",
+        "bomb_shape": "cross_bomb"
+    },
+    "ghost": {
+        "health": 20,
+        "attack": 10,
+        "speed": 130,
+        "bomb_type": "fire_bomb",
+        "bomb_range": "small_bomb",
+        "bomb_shape": "cross_bomb"
+    },
+    "minotaur": {
+        "health": 30,
+        "attack": 15,
+        "speed": 140,
+        "bomb_type": "fire_bomb",
+        "bomb_range": "small_bomb",
+        "bomb_shape": "cross_bomb"
+    },
+    "batking": {
+        "health": 60,
+        "attack": 20,
+        "speed": 150,
+        "bomb_type": "fire_bomb",
+        "bomb_range": "small_bomb",
+        "bomb_shape": "cross_bomb"
+    },
+    "levels":[
+        {"iconx":269, "icony":557, "name":"1", "map":"map01", "next":[1]},
+        {"iconx":538, "icony":476, "name":"2", "map":"map02", "next":[2]},
+        {"iconx":269, "icony":374, "name":"3", "map":"map03", "next":[3]},
+        {"iconx":494, "icony":208, "name":"?", "map":"map04", "next":[]},
+        {"iconx":770, "icony":450, "name":"4", "map":"map05", "next":[4]}
+        
+    ]
+}
